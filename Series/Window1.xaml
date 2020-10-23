@@ -1,0 +1,18 @@
+﻿<Window x:Class="Series.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Series"
+        mc:Ignorable="d"
+        Title="Series ordenadas por valoracion" Height="450" Width="800">
+    <Grid>
+        
+        <!--Lista que ordena las series anteriormente buscadas de mas valoradas a menos-->
+        <Label HorizontalAlignment="Center" FontSize="18" Height="100" VerticalAlignment="Top">
+            <Bold>Series ordenadas por valoración</Bold>
+        </Label>
+        <ListBox Name="Titulos" HorizontalAlignment="Center" Height="300" Width="150" Margin="257,54,386.6,66"></ListBox>
+        <ListBox Name="Valoraciones" HorizontalAlignment="Center" Height="300" Width="150" Margin="407,54,236.6,66"></ListBox>
+    </Grid>
+</Window>
